@@ -14,6 +14,8 @@ API desenvolvinda utilizando os padrão REST e MVC.
 
 ### Documentação API
 
+[Collection_Postman](https://github.com/thiagoslovak/tracknme-backend/blob/master/tracknme-backend.postman_collection.json)
+
 - #### Classes
 
   - CepBo: Classe criada com padrão Bo(Usado para encapsular a lógica de negócio para um objeto). Classe usada para consumir o webservice Viacep.
