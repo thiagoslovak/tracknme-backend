@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "3464284f-7d25-4743-b1d0-934624d0b154",
+		"name": "tracknme-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET - Funcionarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - NovoFuncionario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Thiago\",\r\n    \"idade\": \"24\",\r\n    \"cep\": \"87015440\",\r\n    \"sexo\": \"Masculino\",\r\n    \"endereco\": \"Endereço\",\r\n    \"bairro\": \"Bairro\",\r\n    \"cidade\": \"Cidade\",\r\n    \"estado\": \"Estado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/novo",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"novo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - AtualizarFuncionario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nome\": \"Thiago Slovak\",\r\n    \"idade\": 24,\r\n    \"cep\": \"87015440\",\r\n    \"sexo\": \"Masculino\",\r\n    \"endereco\": \"Endereço\",\r\n    \"bairro\": \"Bairro\",\r\n    \"cidade\": \"Cidade\",\r\n    \"estado\": \"Estado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/atualizar",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"atualizar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL - DeletarFuncionario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"nome\": \"Thiago\",\r\n    \"idade\": 24,\r\n    \"cep\": \"87015440\",\r\n    \"sexo\": \"Masculino\",\r\n    \"endereco\": \"Endereço\",\r\n    \"bairro\": \"Bairro\",\r\n    \"cidade\": \"Cidade\",\r\n    \"estado\": \"Estado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/deletar",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"deletar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - NovoFuncionario_ApenasCep",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Thiago\",\r\n    \"idade\": \"24\",\r\n    \"cep\": \"87015440\",\r\n    \"sexo\": \"Masculino\",\r\n    \"endereco\": \"\",\r\n    \"bairro\": \"\",\r\n    \"cidade\": \"\",\r\n    \"estado\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/novo",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"novo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - FuncionarioPorId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/1",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - FuncionarioPorCep",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/cep/11111111",
+					"protocol": "https",
+					"host": [
+						"tracknme-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"tracknme",
+						"backend",
+						"funcionario",
+						"cep",
+						"11111111"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
