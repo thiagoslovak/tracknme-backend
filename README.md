@@ -10,6 +10,7 @@ API desenvolvinda utilizando os padrão REST e MVC.
 - Spring Boot.
 - Spring Data.
 - Jsoup
+- Viacep
 
 ### Documentação API
 
