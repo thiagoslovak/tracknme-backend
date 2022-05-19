@@ -1,6 +1,6 @@
 ## API - tracknme-backend
 
-Api que simula o gerenciamente dos funcionários de uma empres. 
+Api que simula o gerenciamente dos funcionários de uma empresa. 
 
 ### Projeto criado utilizando:
 
