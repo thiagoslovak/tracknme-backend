@@ -9,9 +9,8 @@ API desenvolvinda utilizando os padrão REST e MVC.
 - Java 11.
 - Spring Boot.
 - Spring Data.
-- Jsoup
-- Viacep
-- [Flex Grid](https://viacep.com.br/)
+- [Jsoup](https://jsoup.org/)
+- [Viacep](https://viacep.com.br/)
 
 ### Documentação API
 
