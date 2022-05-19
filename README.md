@@ -14,7 +14,7 @@ API desenvolvinda utilizando os padrão REST e MVC.
 
 ### Documentação API
 
-[app](https://dashboard.heroku.com/apps/tracknme-backend](https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/)
+[app](https://tracknme-backend.herokuapp.com/tracknme/backend/funcionario/)
 [Collection_Postman](https://github.com/thiagoslovak/tracknme-backend/blob/master/tracknme-backend.postman_collection.json)
 
 - #### Classes
